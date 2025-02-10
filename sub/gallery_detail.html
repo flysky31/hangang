@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>한강 - 갤러리</title>
+    <link href="https://webfontworld.github.io/pretendard/Pretendard.css" rel="stylesheet">
+    <script src="../js/lib/jquery-1.12.4.min.js"></script>
+    <script src="../js/lib/jquery-migrate-1.4.1.min.js"></script> 
+    <script src="../js/nav.js"></script>
+    <script src="../js/main.js"></script>
+    <link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.js"></script>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/common.css" />
+    <link rel="stylesheet" href="../css/sub.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+    <div id="hangang_wrap">
+        <header id="header" class="sub_wrap">
+            <div class="headWrap">
+                <h1 class="logo"><a href="../index.html"><img src="../img/logo.png" alt=""></a></h1>
+                <ul class="gnb" id="gnb">
+                    <li>
+                        <h2 class="fo_nav"><a href="../sub/about.html">회사소개<i></i></a></h2>
+                        <ul class="sub_menu">
+                            <li><a href="../sub/about.html">인사말</a></li>    
+                            <li><a href="../sub/history.html">연혁</a></li>    
+                            <li><a href="../sub/patent.html">특허 및 인증</a></li>
+                            <li><a href="../sub/location.html">오시는 길</a></li>    
+                        </ul>
+                    </li>
+                    <li>
+                        <h2 class="fo_nav"><a href="../sub/business01.html">사업분야<i></i></a></h2>
+                        <ul class="sub_menu">
+                            <li><a href="../sub/business01.html">주택지원사업</a></li>    
+                            <li><a href="../sub/business02.html">건물지원사업</a></li>
+                            <li><a href="../sub/business03.html">경기도 에너지자립마을 사업</a></li>
+                            <li><a href="../sub/business04.html">RPS사업</a></li>    
+                        </ul>
+                    </li>
+                    <li>
+                        <h2 class="fo_nav"><a href="../sub/gallery.html">설치사례<i></i></a></h2>
+                        <ul class="sub_menu">
+                            <li><a href="../sub/gallery.html">갤러리</a></li>    
+                        </ul>
+                    </li>
+                    <li>
+                        <h2 class="fo_nav"><a href="../sub/contact.html">온라인문의<i></i></a></h2>
+                    </li>
+                    <li>
+                        <h2 class="fo_nav"><a href="../sub/notice.html">고객센터<i></i></a></h2>
+                        <ul class="sub_menu">
+                            <li><a href="../sub/notice.html">공지사항</a></li>    
+                            <li><a href="../sub/news.html">보도자료</a></li>    
+                        </ul>
+                    </li>
+                </ul>
+                <a href="#!" class="hamBtn">
+                    <span></span>
+                    <span><em></em></span>
+                    <span></span>
+                </a>
+            </div>    
+            <div class="m-headWrap">
+                <div class="mgnb_bg"></div>
+                <ul class="gnb mgnb">
+                    <li>
+                        <h2><a href="../sub/about.html"> 회사소개 <i></i></a></h2>
+                        <div class="sub-menu">
+                            <ul>
+                                <li><a href="../sub/about.html">인사말</a>
+                                </li>
+                                <li><a href="../sub/history.html">연혁</a>
+                                </li>
+                                <li><a href="../sub/patent.html">특허 및 인증</a>
+                                </li>
+                                <li><a href="../sub/location.html">오시는 길</a>
+                                </li>
+                            </ul>    
+                        </div>                   
+                    </li>
+                    <li>
+                        <h2><a href="../sub/business01.html"> 사업분야 <i></i></a></h2>
+                        <div class="sub-menu">
+                            <ul>
+                                <li><a href="../sub/business01.html">주택지원사업</a>
+                                </li>
+                                <li><a href="../sub/business02.html">건물지원사업</a>
+                                </li>
+                                <li><a href="../sub/business03.html">경기도 에너지자립마을 사업</a>
+                                </li>
+                                <li><a href="../sub/business04.html">RPS사업</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <h2><a href="../sub/gallery.html"> 설치사례 <i></i></a></h2>
+                        <div class="sub-menu">
+                            <ul>
+                                <li><a href="../sub/gallery.html">갤러리</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <h2><a href="../sub/contact.html"> 온라인문의 <i></i></a></h2>         
+                    </li>
+                    <li>
+                        <h2><a href="../sub/notice.html"> 고객센터 <i></i></a></h2>
+                        <div class="sub-menu">
+                            <ul>
+                                <li><a href="../sub/notice.html">공지사항</a>
+                                </li>
+                                <li><a href="../sub/news.html">보도자료</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <main id="sub_contents">           
+            <section id="sub_visual" class="section">
+                <h2 class="hidden">서브 비주얼</h2>
+                <article class="customsub">
+                    <div class="sub_title inner">
+                        <b class="sub_small">Gallery</b>
+                        <h3 class="sub_title bolder">설치사례</h3>
+                        <p class="s_nomal">(주)한강의 실제 설치사례 갤러리 입니다.</p>
+                    </div>
+                    <div class="patent_area">
+                        <div class="txt inner">
+                            <h3 class="sub_title bolder">GALLERY</h3>
+                            <p class="sub_p">설치사례 ㆍ시공후기 갤러리</p>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <div class="inner">       
+              <div class="view_wrap">
+                  <div class="board-btn bo-v-btn-wrap btn-text-none">
+                      <div class="bo-v-btn-right">
+                          <a href="../sub/gallery.html" class="btn-bo-list" title="목록">목록</a>
+                        </div>
+                  </div>
+                  <article id="bo_v" style="width:100%">
+                      <div>
+                          <h2 id="bo-v-title">
+                              <span class="bo-v-tit">
+                                                      여주시 산북면 상품리에 자가소비형 4.8kW 태양광설치                </span>
+                          </h2>
+                      </div>
+                      <section id="bo-v-info">
+                          <h2>페이지 정보</h2>
+                          <div class="profile-info">
+                              <strong><span class="sound_only">작성자</span><span class="sv_member">최고관리자</span></strong>
+                          </div>
+                          <div class="article-info">
+                              <strong class="article-comment"><span class="sound_only">댓글</span><a href="#bo_vc">0</a></strong>
+                              <strong class="article-hit"><span class="sound_only">조회</span>85</strong>
+                              <strong class="article-date"><span class="sound_only">작성일</span>24.05.07 17:33</strong>
+                          </div>
+                      </section>  
+                      <section id="bo_v_atc">
+                          <h2 id="bo_v_atc_title">본문</h2>
+                          <div id="bo_v_share">
+                              <div class="board-btn btn-text-none">
+                                  <a href="#" class="share-btn" title="공유">공유</a>
+                              </div>
+                          </div>
+              
+                          <script>
+                          $(function(){
+                              $(".share-btn").click(function(e){
+                                  e.stopPropagation();
+                                  if(!$(this).hasClass('active'))
+                                  {
+                                      console.log('adsf');
+                                      $(this).addClass('active');
+                                      $("#bo_v_sns").addClass('active');
+                                  }
+                                  else
+                                  {
+                                      $(this).removeClass('active');
+                                      $("#bo_v_sns").removeClass('active');
+                                  }
+                                  return false;
+                              });
+                              $(document).on("click", function (e) {
+                                  if(!$(e.target).closest('#bo_v_sns.active').length) {
+                                      $(".share-btn").removeClass('active');
+                                      $("#bo_v_sns").removeClass('active');
+                                  }
+                              });
+                          });
+                          </script>
+        
+                          <div id="bo_v_con">
+                            <div style="text-align:center;" align="center">
+                              <img src="../img/ffc22fa917d91366dfa61d568dc5dc03_1715071115_7956.jpg" title="ffc22fa917d91366dfa61d568dc5dc03_1715071115_7956.jpg" alt="ffc22fa917d91366dfa61d568dc5dc03_1715071115_7956.jpg" /> 
+                            </div>
+                          </div>
+                          <div style="text-align:center;" align="center">
+                              <a href="#!" target="_blank" class="view_image">
+                                <img src="../img/thumb-ffc22fa917d91366dfa61d568dc5dc03_1715070799_3169_835x5984.jpg" alt="ffc22fa917d91366dfa61d568dc5dc03_1715070799_3169.jpg"/></a>
+                          </div>
+                      </section>
+                      <ul class="bo_v_nb">
+                        <li class="btn_next"><span class="nb_tit">다음글</span>
+                          <a href="#!">안성시 보개면에 76.16kW 2개소 총 152.32kW 의 태양광발전소를 금융지원사업으로 설치하였습니다</a>  <span class="nb_date">24.04.30</span>
+                        </li>        
+                      </ul>   
+                  </article>      
+              </div>
+              <script>
+              $(function() {
+                  $("a.view_file_download").click(function() {
+                      if(!g5_is_member) {
+                          alert("다운로드 권한이 없습니다.\n회원이시라면 로그인 후 이용해 보십시오.");
+                          return false;
+                      }
+              
+                      var msg = "파일을 다운로드 하시면 포인트가 차감(-20점)됩니다.\n\n포인트는 게시물당 한번만 차감되며 다음에 다시 다운로드 하셔도 중복하여 차감하지 않습니다.\n\n그래도 다운로드 하시겠습니까?";
+              
+                      if(confirm(msg)) {
+                          var href = $(this).attr("href")+"&js=on";
+                          $(this).attr("href", href);
+              
+                          return true;
+                      } else {
+                          return false;
+                      }
+                  });
+              });
+              
+              function board_move(href)
+              {
+                  window.open(href, "boardmove", "left=50, top=50, width=500, height=550, scrollbars=1");
+              }
+              </script>
+              
+              <script>
+              $(function() {
+                  $("a.view_image").click(function() {
+                      window.open(this.href, "large_image", "location=yes,links=no,toolbar=no,top=10,left=10,width=10,height=10,resizable=yes,scrollbars=no,status=no");
+                      return false;
+                  });
+              
+                  // 추천, 비추천
+                  $("#good_button, #nogood_button").click(function() {
+                      var $tx;
+                      if(this.id == "good_button")
+                          $tx = $("#bo_v_act_good");
+                      else
+                          $tx = $("#bo_v_act_nogood");
+              
+                      excute_good(this.href, $(this), $tx);
+                      return false;
+                  });
+              
+                  // 이미지 리사이즈
+                  $("#bo_v_atc").viewimageresize();
+              });
+              
+              function excute_good(href, $el, $tx)
+              {
+                  $.post(
+                      href,
+                      { js: "on" },
+                      function(data) {
+                          if(data.error) {
+                              alert(data.error);
+                              return false;
+                          }
+              
+                          if(data.count) {
+                              $el.find("strong").text(number_format(String(data.count)));
+                              if($tx.attr("id").search("nogood") > -1) {
+                                  $tx.text("이 글을 비추천하셨습니다.");
+                                  $tx.fadeIn(200).delay(2500).fadeOut(200);
+                              } else {
+                                  $tx.text("이 글을 추천하셨습니다.");
+                                  $tx.fadeIn(200).delay(2500).fadeOut(200);
+                              }
+                          }
+                      }, "json"
+                  );
+              }
+              </script>
+            </div>
+        </main>
+    <div class="footer">
+        <div class="inner">
+            <div class="loa">
+                <h1 id="f_logo"><a href="../index.html"><img src="../img/logo.png" alt="footer_logo"></a></h1>
+                <address>
+                    <p><a href="tel:031-765-3338">TEL. 031-765-3338</a></p>
+                    <p><a href="mailto:hangangene@naver.com"></a>E.MAIL. hangangene@naver.com</p>
+                </address>
+                <p class="copyright">COPYRIGHT © 2023. ALL RIGHTS RESERVED.</p>
+            </div>
+            <div class="roa">
+                <ul>
+                    <li>
+                        <a href="../sub/about.html" class="fo_nav"
+                        target="_self">회사소개 </a>
+                        <ol class="sub">
+                            <li><a href="../sub/about.html"
+                                target="_self">인사말</a></li>
+                            <li><a href="../sub/history.html"
+                                target="_self">연혁</a></li>
+                            <li><a href="../sub/patent.html"
+                                target="_self">특허 및 인증</a></li>
+                            <li><a href="../sub/location.html"
+                                target="_self">오시는 길</a></li>
+                            </ol>
+                        </li>
+                        <li>
+                            <a href="../sub/business01.html" class="fo_nav"
+                        target="_self">사업분야 </a>
+                        <ol class="sub">
+                            <li><a href="../sub/business01.html"
+                                target="_self">주택지원사업</a></li>
+                            <li><a href="../sub/business02.html"
+                                target="_self">건물지원사업</a></li>
+                            <li><a href="../sub/business03.html"
+                                target="_self">경기도 에너지자립마을 사업</a></li>
+                            <li><a href="../sub/business04.html"
+                                target="_self">RPS사업</a></li>
+                            </ol>
+                        </li>
+                        <li>
+                            <a href="../sub/gallery.html" class="fo_nav"
+                        target="_self">설치사례 </a>
+                        <ol class="sub">
+                            <li><a href="../sub/gallery.html"
+                                target="_self">갤러리</a></li>
+                            </ol>
+                        </li>
+                        <li>
+                            <a href="../sub/contact.html" class="fo_nav"
+                        target="_self">온라인문의 </a>
+                        </li>
+                        <li>
+                            <a href="../sub/notice.html" class="fo_nav"
+                        target="_self">고객센터 </a>
+                        <ol class="sub">
+                            <li><a href="../sub/notice.html"
+                                target="_self">공지사항</a></li>
+                            <li><a href="../sub/news.html"
+                                target="_self">보도자료</a></li>
+                            </ol>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+        <div id="topBtn" class="go_top">
+            <a href="#!">
+                <i></i>
+                <span>TOP</span>
+            </a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
