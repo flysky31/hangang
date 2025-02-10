@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>한강</title>
+    <link href="https://webfontworld.github.io/pretendard/Pretendard.css" rel="stylesheet">
+    <script src="/web/project/hangang/js/lib/jquery-1.12.4.min.js"></script>
+    <script src="/web/project/hangang/js/lib/jquery-migrate-1.4.1.min.js"></script> 
+    <script src="/web/project/hangang/js/nav.js"></script>
+    <script src="/web/project/hangang/js/main.js"></script>
+    <link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.js"></script>
+
+    <link rel="stylesheet" href="/web/project/hangang/css/reset.css" />
+    <link rel="stylesheet" href="/web/project/hangang/css/common.css" />
+    <link rel="stylesheet" href="/web/project/hangang/css/main.css" />
+
+</head>
+<body>
+    <div id="hangang_wrap">
+        <header id="header" class="each transparent">
+            <div class="headWrap">
+                <h1 class="logo"><a href="/web/project/hangang/"><img src="/web/project/hangang/img/logo.png" alt=""></a></h1>
+                <ul class="gnb" id="gnb">
+                    <li>
+                        <h2 class="fo_nav"><a href="/web/project/hangang/sub/about.html">회사소개<i></i></a></h2>
+                        <ul class="sub_menu">
+                            <li><a href="/web/project/hangang/sub/about.html">인사말</a></li>    
+                            <li><a href="/web/project/hangang/sub/history.html">연혁</a></li>    
+                            <li><a href="/web/project/hangang/sub/patent.html">특허 및 인증</a></li>
+                            <li><a href="/web/project/hangang/sub/location.html">오시는 길</a></li>    
+                        </ul>
+                    </li>
+                    <li>
+                        <h2 class="fo_nav"><a href="/web/project/hangang/sub/business01.html">사업분야<i></i></a></h2>
+                        <ul class="sub_menu">
+                        <li><a href="/web/project/hangang/sub/business01.html">주택지원사업</a></li>    
+                            <li><a href="/web/project/hangang/sub/business02.html">건물지원사업</a></li>
+                            <li><a href="/web/project/hangang/sub/business03.html">경기도 에너지자립마을 사업</a></li>
+                            <li><a href="/web/project/hangang/sub/business04.html">RPS사업</a></li>    
+                        </ul>
+                    </li>
+                    <li>
+                        <h2 class="fo_nav"><a href="">설치사례<i></i></a></h2>
+                        <ul class="sub_menu">
+                            <li><a href="">갤러리</a></li>    
+                        </ul>
+                    </li>
+                    <li>
+                        <h2 class="fo_nav"><a href="/web/project/hangang/sub/contact.html">온라인문의<i></i></a></h2>
+                    </li>
+                    <li>
+                        <h2 class="fo_nav"><a href="">고객센터<i></i></a></h2>
+                        <ul class="sub_menu">
+                            <li><a href="">공지사항</a></li>    
+                            <li><a href="">보도자료</a></li>    
+                        </ul>
+                    </li>
+                </ul>
+                <a href="#!" class="hamBtn">
+                    <span></span>
+                    <span><em></em></span>
+                    <span></span>
+                </a>
+            </div>    
+            <div class="m-headWrap">
+                <div class="mgnb_bg"></div>
+                <ul class="gnb mgnb">
+                    <li>
+                        <h2><a href="/web/project/hangang/sub/about.html"> 회사소개 <i></i></a></h2>
+                        <div class="sub-menu">
+                            <ul>
+                                <li><a href="/web/project/hangang/sub/about.html">인사말</a>
+                                </li>
+                                <li><a href="/web/project/hangang/sub/history.html">연혁</a>
+                                </li>
+                                <li><a href="/web/project/hangang/sub/patent.html">특허 및 인증</a>
+                                </li>
+                                <li><a href="/web/project/hangang/sub/location.html">오시는 길</a>
+                                </li>
+                            </ul>    
+                        </div>                   
+                    </li>
+                    <li>
+                        <h2><a href="/web/project/hangang/sub/business01.html"> 사업분야 <i></i></a></h2>
+                        <div class="sub-menu">
+                            <ul>
+                                <li><a href="/web/project/hangang/sub/business01.html">주택지원사업</a>
+                                </li>
+                                <li><a href="/web/project/hangang/sub/business02.html">건물지원사업</a>
+                                </li>
+                                <li><a href="/web/project/hangang/sub/business03.html">경기도 에너지자립마을 사업</a>
+                                </li>
+                                <li><a href="/web/project/hangang/sub/business04.html">RPS사업</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <h2><a href=""> 설치사례 <i></i></a></h2>
+                        <div class="sub-menu">
+                            <ul>
+                                <li><a href="">갤러리</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <h2><a href="/web/project/hangang/sub/contact.html"> 온라인문의 <i></i></a></h2>         
+                    </li>
+                    <li>
+                        <h2><a href=""> 고객센터 <i></i></a></h2>
+                        <div class="sub-menu">
+                            <ul>
+                                <li><a href="">공지사항</a>
+                                </li>
+                                <li><a href="">보도자료</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <main id="contentsWrap">
+            <div id="fullpage">
+            <div class="section main-visual">          
+                <div class="inner">
+                    <div class="txt">
+                        <h2 class="sub_title">환경은 우리세대의 것만은 아닙니다 !</h2>
+                        <strong class="m_title">후대에도 좋은 환경을 <br>
+                            물려줘야 하지 않겠습니까?</strong>
+                        <p class="p_txt">동물도 식물도 함께 살아가는 지구가 되도록 노력 하겠습니다. <br>
+                            ESG경영은 특정한 기업만이 하는것이 아닌 내가 해야 하는 것입니다. 
+                        </p>
+                        <div class="more_btn">
+                            <a href="">LEARN MORE</a>
+                        </div>
+                    </div>
+                </div>            
+            </div>
+        
+            <div class="section about">
+                <div class="cont_in">
+                    <div class="txt">
+                        <h2 class="sm_title">solution01</h2>
+                        <strong class="m2_title">주택지원사업</strong>
+                        <p class="p_txt">태양광, 태양열, 지열 등 신재생에너지를 도입하고 고효율 조명 및 보일러,
+                        친환경 단열재를 사용함으로써 화석연료 사용을 최대한 억제하고, 
+                        온실가스 및 공기오염물질의 배출을 최소화하는 저에너지 친환경 주택
+                        </p>
+                        <div class="more_btn">
+                            <a href="">LEARN MORE</a>
+                        </div>
+                    </div>
+                    <figure>
+                        <img src="/web/project/hangang/img/deps02_bg.jpg" alt="">
+                    </figure>
+                </div>
+            </div>
+        
+            <div class="section business">
+                <div class="cont_in">
+                <div class="txt">
+                    <h2 class="sm_title">solution02</h2>
+                    <strong class="m2_title">건물지원사업</strong>
+                    <p class="p_txt">한국에너지공단에서 매년 진행하고 있는 가정용 주택에 외 건물( 공장, 창고, 축사, 상업시설등)에 
+                    최대 200kW 까지 지원해주는 사업입니다. <br>
+                    2023년 기준 공단기준 지원금액은 태양광은 972,000/1kW에  입니다.
+                    </p>
+                    <div class="more_btn">
+                        <a href="">LEARN MORE</a>
+                    </div>
+                </div>              
+                </div>
+            </div>
+            
+            <div class="section products">
+                <div class="cont_in">
+                <div class="txt">
+                    <h2 class="sm_title">solution03</h2>
+                    <strong class="m2_title">경기도 에너지자립마을 사업</strong>
+                    <p class="p_txt">신·재생에너지 설비에 대하여 설치비의 일정부분을 정부에서 
+                    무상 보조·지원함으로써, 새로이 개발된 신·재생에너지 기술의 상용화를 
+                    유도하고 상용화된 기술에 대하여는 보급활성화를 통하여 신재생에너지 
+                    시장창출과 확대를 유도하는 사업입니다.
+                    </p>
+                    <div class="more_btn">
+                        <a href="">LEARN MORE</a>
+                    </div>
+                </div>
+                <figure>
+                    <img src="/web/project/hangang/img/deps04_bg.jpg" alt="">
+                </figure>
+            </div>
+            </div>        
+        
+            <div class="section rps">
+                <div class="cont_in">
+                <div class="txt">
+                    <h2 class="sm_title">solution04</h2>
+                    <strong class="m2_title">RPS사업</strong>
+                    <p class="p_txt">태양광발전사업 이란?<br>
+                    토지나 건물옥상, 공장 지붕 등에 태양광 모듈을 설치 후 생산된 전력을 
+                    한국전력 및 발전회사에 판매하여 수익을 창출하는 사업입니다.
+                    </p>
+                    <div class="more_btn">
+                        <a href="">LEARN MORE</a>
+                    </div>
+                </div>              
+                </div>
+            </div>       
+        
+            <div class="section example">
+                <div class="cont_in">
+                    <div class="txt">
+                    <strong class="m2_title">설치사례</strong>
+                    <div class="m_center">(주)한강 설치사례입니다.</div>
+                    <p class="p_txt">신·재생에너지 설비에 대하여 설치비의 
+                        일정부분을 정부에서 무상 보조·지원함으로써
+                        신재생에너지 시장창출과 확대를 유도하는 
+                        사업입니다.
+                    </p>         
+                </div>   
+                <article>
+                    <div class="company-navi">
+                    <div class="prod-next">
+                        <span></span>
+                    </div>
+                    <div class="prod-prev">
+                        <span></span>
+                    </div>
+                    </div>
+                    <div class="swiper prod">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <figure>
+                                <img src="/web/project/hangang/img/example_img01.jpg" alt="">
+                                <div class="prod-info">
+                                <b class="m_slide">경기도 안양</b>
+                                <a href=""><span>DETAIL VIEW</span> <i></i></a>
+                                </div>
+                            </figure>
+                        </li>        
+                        <li class="swiper-slide">
+                        <figure>
+                            <img src="/web/project/hangang/img/example_img02.jpg" alt="">
+                            <div class="prod-info">
+                            <b class="m_slide">서울 광진구</b>
+                            <a href=""><span>DETAIL VIEW</span> <i></i></a>
+                            </div>
+                        </figure>
+                        </li>
+        
+                        <li class="swiper-slide">
+                        <figure>
+                            <img src="/web/project/hangang/img/example_img03.jpg" alt="">
+                            <div class="prod-info">
+                            <b class="m_slide">서울 광진구</b>
+                            <a href=""><span>DETAIL VIEW</span> <i></i></a>
+                            </div>
+                        </figure>
+                        </li>
+                    </ul>
+                    </div>
+                    <div class="prodPage"></div>
+                </article>
+                </div>
+            </div>
+            <div class="section information">
+                <div class="inner">
+                    <div class="txt scroller">
+                        <strong class="m2_title">오늘의 전력정보</strong>
+                        <div class="m_center">(주)한강 에서 제공되는 전력정보입니다.</div>
+                    </div>
+                    <ul class="scroller">
+                        <li>
+                            <div class="box">
+                                <div class="tit p_txt"><p>오</p><p>늘</p><p>의</p><p>R</p><p>E</p><p>C</p></div>
+                                <div class="t_bix">
+                                    <div class="top">
+                                        <h3 class="m_center">REC 현물</h3>
+                                        <p class="p_sub">(단위: REC, 원/REC)</p>
+                                    </div>
+                                    <div class="row">
+                                        <div class="live p_sub">LIVE</div>
+                                        <div class="num">
+                                                                                    <!--<b class="m_center">77,900</b>-->
+                                            <b class="m_center">78,300</b>
+                                            <!-- 상승 up / 다운 down / 중간 low -->
+                                            <div class="plus"><i class="up"></i> <span class="p_sub up">17,050</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="box">
+                                <div class="tit p_txt"><p>오</p><p>늘</p><p>의</p><p>S</p><p>M</p><p>P</p></div>
+                                <div class="t_bix">
+                                    <div class="top">
+                                        <h3 class="m_center">SMP</h3>
+                                        <p class="p_sub">(단위: 원/kwh)</p>
+                                    </div>
+                                    <div class="row">
+                                        <div class="live2 p_sub">오늘의 시장가격</div>
+                                        <div class="num">
+                                                                                    <b class="m_center">114.71</b>
+                                            <!-- 상승 up / 다운 down / 중간 low -->
+                                            <div class="plus"><i class="down"></i> <span class="p_sub down">0.37</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+            
+                </div>
+            </div>
+            
+            <div class="section fullpage-footer fp-auto-height footer">
+                <div class="inner">
+                    <div class="loa">
+                        <h1 id="f_logo"><a href="/web/project/hangang/"><img src="/web/project/hangang/img/logo.png" alt="footer_logo"></a></h1>
+                        <address>
+                            <p><a href="tel:010-5344-6322">TEL. 010 5344 6332</a></p>
+                            <p><a href="mailto:sdean73@hanmail.net"></a>E.MAIL. sdean73@hanmail.net</p>
+                        </address>
+                        <p class="copyright">COPYRIGHT © 2023. ALL RIGHTS RESERVED.</p>
+                    </div>
+                    <div class="roa">
+                        <ul>
+                            <li>
+                                <a href="/web/project/hangang/sub/about.html" class="fo_nav">회사소개</a>
+                                <ol class="sub">
+                                    <li><a href="">인사말</a></li>
+                                    <li><a href="">연혁</a></li>
+                                    <li><a href="">특허 및 인증</a></li>
+                                    <li><a href="">오시는길</a></li>
+                                </ol>
+                            </li>
+                            <li>
+                                <a href="/web/project/hangang/sub/about.html" class="fo_nav">사업분야</a>
+                                <ol  class="sub">
+                                    <li><a href="">주택지원사업</a></li>
+                                    <li><a href="">건물지원사업</a></li>
+                                    <li><a href="">경기도 에너지자립마을 사업</a></li>
+                                    <li><a href="">RPF사업</a></li>
+                                </ol>
+                            </li>
+                            <li>
+                            <a href="" class="fo_nav">설치사례</a>
+                            <ol  class="sub">
+                                <li><a href="">갤러리</a></li>
+                            </ol>
+                            </li>
+                            <li>
+                            <a href="" class="fo_nav">고객센터</a>
+                            <ol class="sub">
+                                <li><a href="">공지사항</a></li>
+                                <li><a href="">온라인문의</a></li>
+                                <li><a href="">보도자료</a></li>
+                            </ol>
+                            </li>
+                        </ul>
+                    </div>                  
+                </div>
+                <div id="topBtn" class="go_top">
+                    <a href="/">
+                    <i></i>
+                    <span>TOP</span>
+                    </a>
+                </div>
+            </div>
+            </div>      
+
+        </main>
+    </div>
+</body>
+</html>
+<script>
+  $(document).ready(function () {
+    const invertSection = [2,4,7,8];
+    const invertNav = [3,4,5,6];
+    const invertNavBox = [2,3,4,5,6,7,8,9,10];
+    $("#fullpage").fullpage({
+      //options here
+      autoScrolling: true,
+      scrollHorizontally: true,
+      responsiveWidth: 1024,
+     navigation: true,
+      navigationPosition: "left",
+      navigationTooltips: [
+        "MAIN",
+        "ABOUT",
+        "BUSINESS",
+        "PRODUCTS",
+        "BUSINESS AREA",
+        "CELLDOMCITY",
+        "NEWS & EVENT",
+      ],
+      afterLoad: function (origin, destination, direction, trigger) {
+        invertSection.includes(destination)
+          ? $("header").addClass("on")
+          : $("header").removeClass("on");
+        invertNav.includes(destination)
+          ? $("#fp-nav a").addClass("red")
+          : $("#fp-nav a").removeClass("red");
+
+        $(".section")
+          .eq(destination - 1)
+          .find(".scroller")
+          .addClass("on");
+      },
+    });
+    
+  });
+</script>
