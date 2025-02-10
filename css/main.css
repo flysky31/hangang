@@ -168,7 +168,7 @@
 }
 
 .main-visual {
-  background: url("/web/project/hangang/img/deps01_bg.jpg") no-repeat center center/cover;
+  background: url("../img/deps01_bg.jpg") no-repeat center center/cover;
 }
 .main-visual .scroll_down {
   text-align: center;
@@ -305,7 +305,7 @@
   justify-content: center;
   flex-direction: column;
   padding: 0 30px 0 0;
-  background: url("/web/project/hangang/img/deps02_img.png") no-repeat 85% 80%;
+  background: url("../img/deps02_img.png") no-repeat 85% 80%;
 }
 .about .cont_in .txt p {
   margin: 20px 0 40px;
@@ -331,20 +331,20 @@
 }
 
 .business {
-  background: url("/web/project/hangang/img/deps03_bg.jpg") no-repeat center center/cover;
+  background: url("../img/deps03_bg.jpg") no-repeat center center/cover;
 }
 .business .cont_in {
   width: 60%;
   float: right;
   height: 100%;
-  background: url("/web/project/hangang/img/business_bg.png") no-repeat top/cover;
+  background: url("../img/business_bg.png") no-repeat top/cover;
 }
 .business .cont_in .txt {
   height: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background: url("/web/project/hangang/img/deps03_img.png") no-repeat 80% 80%;
+  background: url("../img/deps03_img.png") no-repeat 80% 80%;
   padding: 0 10%;
   color: #fff;
 }
@@ -374,7 +374,7 @@
   justify-content: center;
   flex-direction: column;
   padding: 0 30px 0 0;
-  background: url("/web/project/hangang/img/deps04_img.png") no-repeat 85% 80%;
+  background: url("../img/deps04_img.png") no-repeat 85% 80%;
 }
 .products .cont_in .txt p {
   margin: 20px 0 40px;
@@ -397,7 +397,7 @@
 }
 
 .rps {
-  background: url("/web/project/hangang/img/deps05_bg.jpg") no-repeat center center/cover;
+  background: url("../img/deps05_bg.jpg") no-repeat center center/cover;
 }
 .rps .fp-tableCell {
   vertical-align: top;
@@ -406,14 +406,14 @@
   width: 60%;
   float: right;
   height: 70%;
-  background: url("/web/project/hangang/img/rps_bg.png") no-repeat top/cover;
+  background: url("../img/rps_bg.png") no-repeat top/cover;
 }
 .rps .cont_in .txt {
   height: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background: url("/web/project/hangang/img/deps03_img.png") no-repeat 80% 80%;
+  background: url("../img/deps03_img.png") no-repeat 80% 80%;
   padding: 0 10%;
   color: #fff;
 }
@@ -429,7 +429,7 @@
 }
 
 .example {
-  background: url("/web/project/hangang/img/deps06_bg.jpg") no-repeat center center/cover;
+  background: url("../img/deps06_bg.jpg") no-repeat center center/cover;
 }
 .example .cont_in {
   width: 90%;
@@ -590,7 +590,7 @@
 }
 
 .information {
-  background: url("/web/project/hangang/img/deps07_bg.jpg") no-repeat center center/cover;
+  background: url("../img/deps07_bg.jpg") no-repeat center center/cover;
 }
 .information ul {
   background: #fff;
@@ -812,7 +812,7 @@
     width: auto;
     padding: 100px 0;
     margin: 0 5% 10% 0;
-    background: url("/web/project/hangang/img/deps04_img.png") no-repeat 85% 100%;
+    background: url("../img/deps04_img.png") no-repeat 85% 100%;
   }
   .products .cont_in figure {
     width: 100%;
@@ -824,7 +824,7 @@
     width: 80%;
   }
   .rps .cont_in .txt {
-    background: url("/web/project/hangang/img/deps03_img.png") no-repeat 80% 90%;
+    background: url("../img/deps03_img.png") no-repeat 80% 90%;
   }
   .example .cont_in {
     flex-direction: column;
@@ -866,7 +866,7 @@
     width: 100%;
   }
   .about .cont_in .txt {
-    background: url("/web/project/hangang/img/deps02_img.png") no-repeat 85% 100%;
+    background: url("../img/deps02_img.png") no-repeat 85% 100%;
   }
   .business .cont_in .txt {
     padding: 0;
@@ -950,7 +950,7 @@
     background-size: 200px auto;
   }
   .business .cont_in .txt {
-    background: url("/web/project/hangang/img/deps03_img.png") no-repeat 80% 90%;
+    background: url("../img/deps03_img.png") no-repeat 80% 90%;
     background-size: 200px auto;
   }
   .products .cont_in {
