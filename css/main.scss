@@ -173,130 +173,7 @@
       opacity: 1;
     }
   }
-//메인 페이징
-// #fp-nav {
-//     position: fixed;
-//     left: 50px;
-//     top: 50%;
-//     margin-top: auto !important;
-//     transform: rotate(90deg) translateX(-50%);
-//     transform-origin: left top;
-//     ul {
-//       display: flex;
-//       justify-content: space-between;
-//       row-gap: 30px;
-//       width: 400px;
-//       li {
-//         display: flex;
-//         align-items: center;
-//         transition: all .5s;
-//         a {
-//           display: block;
-//           width: 10px;
-//           height: 10px;
-//           border-radius: 50%;
-//           border: 1px solid #fff;
-//           position: relative;
-//           transition: all .5s;
-  
-//           &.red{
-//             border: 1px solid #818181;
-  
-//             &.acitve{
-//               border: 1px solid #ff2525;
-//             }
-//           }
-  
-//           span {
-//             display: none;
-//           }
-//         }
-//         a.active + .fp-tooltip {
-//           display: flex;
-          
-//           &::after{
-//             width: 60px;
-//             animation-name: long;
-//           }
-//         }
-//         a.red.active + .fp-tooltip {
-//           color: #ff2525;
-          
-//           &::after{
-//             width: 60px;
-//             background: #ff2525;
-//             animation-name: long;
-  
-//             @keyframes long {
-//               100%{
-//                 transform: scale(1);
-//                 opacity: 1;
-//               }
-//             }
-  
-//           }
-//         }
-//         .fp-tooltip {
-//           font-size: 12px;
-//           font-weight: bold;
-//           color: #fff;
-//           margin-left: 20px;
-//           display: none;
-//           align-items: center;
-//           transition: all 1s;
-  
-  
-//           &::after{
-//             content: '';
-//             display: block;
-//             height: 1px;
-//             background: #fff;
-//             margin-left: 20px;
-//             transition: all .5s;
-//             width: 60px;
-//             transform: scale(0);
-//             transform-origin: left;
-  
-//             animation-duration: 1.2s;
-//             animation-delay: 0.3s;
-//             animation-fill-mode: forwards;
-  
-//           }
-//         }
-//       }
-//     }
-//     &.on{
-//       ul {
-//         li {
-//           a {
-            
-//             span {
-//               border: 4px solid #ddd;
-//             }
-//           }
-//           .fp-tooltip {
-//             color: #fff;
-//           }
-//         }
-//       }
-  
-//     }
-//   }
 
-
-// .section{
-//     .txt{
-//         opacity: 0;
-//         transition: 1s ease-in-out;
-//         transform: translateX(10%);
-//     }
-//     &.active{
-//         .txt{
-//             opacity: 1;
-//             transform: none;
-//         }
-//     }
-// }
 
 
 .section{
@@ -304,7 +181,7 @@
 }
 
 .main-visual{
-    background: url("/web/project/hangang/img/deps01_bg.jpg")no-repeat center center/cover;
+    background: url("../img/deps01_bg.jpg")no-repeat center center/cover;
 
     .scroll_down{
         text-align: center;
@@ -412,7 +289,7 @@
             justify-content: center;
             flex-direction: column;
             padding: 0 30px 0 0;
-            background: url("/web/project/hangang/img/deps02_img.png")no-repeat 85% 80%;
+            background: url("../img/deps02_img.png")no-repeat 85% 80%;
             p{
                 margin:20px 0 40px;
             }
@@ -441,18 +318,18 @@
 }
 
 .business{
-    background: url("/web/project/hangang/img/deps03_bg.jpg")no-repeat center center/cover;
+    background: url("../img/deps03_bg.jpg")no-repeat center center/cover;
     .cont_in{
         width: 60%;
         float: right;
         height: 100%;
-        background: url("/web/project/hangang/img/business_bg.png")no-repeat top /cover;
+        background: url("../img/business_bg.png")no-repeat top /cover;
         .txt{
             height: 100%;
             display: flex;
             justify-content: center;
             flex-direction: column;
-            background: url("/web/project/hangang/img/deps03_img.png")no-repeat 80% 80%;
+            background: url("../img/deps03_img.png")no-repeat 80% 80%;
             padding: 0 10%;
             color: #fff;
             p{
@@ -484,7 +361,7 @@
             justify-content: center;
             flex-direction: column;
             padding: 0 30px 0 0;
-            background: url("/web/project/hangang/img/deps04_img.png")no-repeat 85% 80%;
+            background: url("../img/deps04_img.png")no-repeat 85% 80%;
             p{
                 margin:20px 0 40px;
             }
@@ -512,7 +389,7 @@
 }
 
 .rps{
-    background: url("/web/project/hangang/img/deps05_bg.jpg")no-repeat center center/cover;
+    background: url("../img/deps05_bg.jpg")no-repeat center center/cover;
     .fp-tableCell{
         vertical-align: top;
     }
@@ -520,13 +397,13 @@
         width: 60%;
         float: right;
         height: 70%;
-        background: url("/web/project/hangang/img/rps_bg.png")no-repeat top /cover;
+        background: url("../img/rps_bg.png")no-repeat top /cover;
         .txt{
             height: 100%;
             display: flex;
             justify-content: center;
             flex-direction: column;
-            background: url("/web/project/hangang/img/deps03_img.png")no-repeat 80% 80%;
+            background: url("../img/deps03_img.png")no-repeat 80% 80%;
             padding: 0 10%;
             color: #fff;
             p{
@@ -546,7 +423,7 @@
 }
 
 .example{
-    background: url("/web/project/hangang/img/deps06_bg.jpg")no-repeat center center/cover;
+    background: url("../img/deps06_bg.jpg")no-repeat center center/cover;
     .cont_in{
         width: 90%;
         float: right;
@@ -724,7 +601,7 @@
 }
 
 .information{
-    background: url("/web/project/hangang/img/deps07_bg.jpg")no-repeat center center/cover;
+    background: url("../img/deps07_bg.jpg")no-repeat center center/cover;
     ul{
         background: #fff;
         @include flex_center;
@@ -1006,7 +883,7 @@
                 width: auto;
                 padding: 100px 0;
                 margin: 0 5% 10% 0;
-                background: url("/web/project/hangang/img/deps04_img.png") no-repeat 85% 100%;
+                background: url("../img/deps04_img.png") no-repeat 85% 100%;
             }
             figure{
                 width: 100%;
@@ -1022,7 +899,7 @@
         .cont_in{
             width: 80%;
             .txt{
-                background: url("/web/project/hangang/img/deps03_img.png") no-repeat 80% 90%;
+                background: url("../img/deps03_img.png") no-repeat 80% 90%;
             }
         }
     }
@@ -1083,7 +960,7 @@
     .about{
         .cont_in {
             .txt{
-                background: url("/web/project/hangang/img/deps02_img.png") no-repeat 85% 100%;
+                background: url("../img/deps02_img.png") no-repeat 85% 100%;
                 
             }
         }
@@ -1214,7 +1091,7 @@
     .business{
         .cont_in {
             .txt{
-                background: url("/web/project/hangang/img/deps03_img.png") no-repeat 80% 90%;
+                background: url("../img/deps03_img.png") no-repeat 80% 90%;
 
                 background-size: 200px auto;
             }
