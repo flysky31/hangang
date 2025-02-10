@@ -2,125 +2,129 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>한강 - 연혁</title>
     <link href="https://webfontworld.github.io/pretendard/Pretendard.css" rel="stylesheet">
-    <script src="/web/project/hangang/js/lib/jquery-1.12.4.min.js"></script>
-    <script src="/web/project/hangang/js/lib/jquery-migrate-1.4.1.min.js"></script> 
-    <script src="/web/project/hangang/js/nav.js"></script>
-    <script src="/web/project/hangang/js/main.js"></script>
-
-    <link rel="stylesheet" href="/web/project/hangang/css/reset.css" />
-    <link rel="stylesheet" href="/web/project/hangang/css/common.css" />
-    <link rel="stylesheet" href="/web/project/hangang/css/sub.css" />
+    <script src="../js/lib/jquery-1.12.4.min.js"></script>
+    <script src="../js/lib/jquery-migrate-1.4.1.min.js"></script> 
+    <script src="../js/nav.js"></script>
+    <script src="../js/main.js"></script>
+    <link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.js"></script>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/common.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/sub.css" />
 </head>
 <body>
-    
-<div id="hangang_wrap" class="">
-    <header id="header" class="sub_wrap">
-        <div class="headWrap">
-            <h1 class="logo"><a href="/web/project/hangang/"><img src="/web/project/hangang/img/logo.png" alt=""></a></h1>
-            <ul class="gnb" id="gnb">
-                <li>
-                    <h2 class="fo_nav"><a href="/web/project/hangang/sub/about.html">회사소개<i></i></a></h2>
-                    <ul class="sub_menu">
-                        <li><a href="/web/project/hangang/sub/about.html">인사말</a></li>    
-                        <li><a href="/web/project/hangang/sub/history.html">연혁</a></li>    
-                        <li><a href="/web/project/hangang/sub/patent.html">특허 및 인증</a></li>
-                        <li><a href="/web/project/hangang/sub/location.html">오시는 길</a></li>    
-                    </ul>
-                </li>
-                <li>
-                    <h2 class="fo_nav"><a href="/web/project/hangang/sub/business01.html">사업분야<i></i></a></h2>
-                    <ul class="sub_menu">
-                    <li><a href="/web/project/hangang/sub/business01.html">주택지원사업</a></li>    
-                        <li><a href="/web/project/hangang/sub/business02.html">건물지원사업</a></li>
-                        <li><a href="/web/project/hangang/sub/business03.html">경기도 에너지자립마을 사업</a></li>
-                        <li><a href="/web/project/hangang/sub/business04.html">RPS사업</a></li>    
-                    </ul>
-                </li>
-                <li>
-                    <h2 class="fo_nav"><a href="">설치사례<i></i></a></h2>
-                    <ul class="sub_menu">
-                        <li><a href="">갤러리</a></li>    
-                    </ul>
-                </li>
-                <li>
-                    <h2 class="fo_nav"><a href="/web/project/hangang/sub/contact.html">온라인문의<i></i></a></h2>
-                </li>
-                <li>
-                    <h2 class="fo_nav"><a href="">고객센터<i></i></a></h2>
-                    <ul class="sub_menu">
-                        <li><a href="">공지사항</a></li>    
-                        <li><a href="">보도자료</a></li>    
-                    </ul>
-                </li>
-            </ul>
-            <a href="#!" class="hamBtn">
-                <span></span>
-                <span><em></em></span>
-                <span></span>
-            </a>
-        </div>    
-        <div class="m-headWrap">
-            <div class="mgnb_bg"></div>
-            <ul class="gnb mgnb">
-                <li>
-                    <h2><a href="/web/project/hangang/sub/about.html"> 회사소개 <i></i></a></h2>
-                    <div class="sub-menu">
-                        <ul>
-                            <li><a href="/web/project/hangang/sub/about.html">인사말</a>
-                            </li>
-                            <li><a href="/web/project/hangang/sub/history.html">연혁</a>
-                            </li>
-                            <li><a href="/web/project/hangang/sub/patent.html">특허 및 인증</a>
-                            </li>
-                            <li><a href="/web/project/hangang/sub/location.html">오시는 길</a>
-                            </li>
-                        </ul>    
-                    </div>                   
-                </li>
-                <li>
-                    <h2><a href="/web/project/hangang/sub/business01.html"> 사업분야 <i></i></a></h2>
-                    <div class="sub-menu">
-                        <ul>
-                            <li><a href="/web/project/hangang/sub/business01.html">주택지원사업</a>
-                            </li>
-                            <li><a href="/web/project/hangang/sub/business02.html">건물지원사업</a>
-                            </li>
-                            <li><a href="/web/project/hangang/sub/business03.html">경기도 에너지자립마을 사업</a>
-                            </li>
-                            <li><a href="/web/project/hangang/sub/business04.html">RPS사업</a>
-                            </li>
+    <div id="hangang_wrap">
+        <header id="header" class="each transparent">
+            <div class="headWrap">
+                <h1 class="logo"><a href="../index.html"><img src="../img/logo.png" alt=""></a></h1>
+                <ul class="gnb" id="gnb">
+                    <li>
+                        <h2 class="fo_nav"><a href="../sub/about.html">회사소개<i></i></a></h2>
+                        <ul class="sub_menu">
+                            <li><a href="../sub/about.html">인사말</a></li>    
+                            <li><a href="../sub/history.html">연혁</a></li>    
+                            <li><a href="../sub/patent.html">특허 및 인증</a></li>
+                            <li><a href="../sub/location.html">오시는 길</a></li>    
                         </ul>
-                    </div>
-                </li>
-                <li>
-                    <h2><a href=""> 설치사례 <i></i></a></h2>
-                    <div class="sub-menu">
-                        <ul>
-                            <li><a href="">갤러리</a>
-                            </li>
+                    </li>
+                    <li>
+                        <h2 class="fo_nav"><a href="../sub/business01.html">사업분야<i></i></a></h2>
+                        <ul class="sub_menu">
+                            <li><a href="../sub/business01.html">주택지원사업</a></li>    
+                            <li><a href="../sub/business02.html">건물지원사업</a></li>
+                            <li><a href="../sub/business03.html">경기도 에너지자립마을 사업</a></li>
+                            <li><a href="../sub/business04.html">RPS사업</a></li>    
                         </ul>
-                    </div>
-                </li>
-                <li>
-                    <h2><a href="/web/project/hangang/sub/contact.html"> 온라인문의 <i></i></a></h2>         
-                </li>
-                <li>
-                    <h2><a href=""> 고객센터 <i></i></a></h2>
-                    <div class="sub-menu">
-                        <ul>
-                            <li><a href="">공지사항</a>
-                            </li>
-                            <li><a href="">보도자료</a>
-                            </li>
+                    </li>
+                    <li>
+                        <h2 class="fo_nav"><a href="../sub/gallery.html">설치사례<i></i></a></h2>
+                        <ul class="sub_menu">
+                            <li><a href="../sub/gallery.html">갤러리</a></li>    
                         </ul>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </header>
+                    </li>
+                    <li>
+                        <h2 class="fo_nav"><a href="../sub/contact.html">온라인문의<i></i></a></h2>
+                    </li>
+                    <li>
+                        <h2 class="fo_nav"><a href="../sub/notice.html">고객센터<i></i></a></h2>
+                        <ul class="sub_menu">
+                            <li><a href="../sub/notice.html">공지사항</a></li>    
+                            <li><a href="../sub/news.html">보도자료</a></li>    
+                        </ul>
+                    </li>
+                </ul>
+                <a href="#!" class="hamBtn">
+                    <span></span>
+                    <span><em></em></span>
+                    <span></span>
+                </a>
+            </div>    
+            <div class="m-headWrap">
+                <div class="mgnb_bg"></div>
+                <ul class="gnb mgnb">
+                    <li>
+                        <h2><a href="../sub/about.html"> 회사소개 <i></i></a></h2>
+                        <div class="sub-menu">
+                            <ul>
+                                <li><a href="../sub/about.html">인사말</a>
+                                </li>
+                                <li><a href="../sub/history.html">연혁</a>
+                                </li>
+                                <li><a href="../sub/patent.html">특허 및 인증</a>
+                                </li>
+                                <li><a href="../sub/location.html">오시는 길</a>
+                                </li>
+                            </ul>    
+                        </div>                   
+                    </li>
+                    <li>
+                        <h2><a href="../sub/business01.html"> 사업분야 <i></i></a></h2>
+                        <div class="sub-menu">
+                            <ul>
+                                <li><a href="../sub/business01.html">주택지원사업</a>
+                                </li>
+                                <li><a href="../sub/business02.html">건물지원사업</a>
+                                </li>
+                                <li><a href="../sub/business03.html">경기도 에너지자립마을 사업</a>
+                                </li>
+                                <li><a href="../sub/business04.html">RPS사업</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <h2><a href="../sub/gallery.html"> 설치사례 <i></i></a></h2>
+                        <div class="sub-menu">
+                            <ul>
+                                <li><a href="../sub/gallery.html">갤러리</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <h2><a href="../sub/contact.html"> 온라인문의 <i></i></a></h2>         
+                    </li>
+                    <li>
+                        <h2><a href="../sub/notice.html"> 고객센터 <i></i></a></h2>
+                        <div class="sub-menu">
+                            <ul>
+                                <li><a href="../sub/notice.html">공지사항</a>
+                                </li>
+                                <li><a href="../sub/news.html">보도자료</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </header>
     <main id="sub_contents">
         <section id="sub_visual" class="section">
             <h2 class="hidden">서브 비주얼</h2>
@@ -129,10 +133,10 @@
                     <b class="sub_small">Company</b>
                     <h3 class="sub_title bolder">회사소개</h3>
                     <ul class="tab">
-                        <li class="s_nomal"><a href="/web/project/hangang/sub/about.html">인사말</a></li>
-                        <li class="s_nomal active"><a href="/web/project/hangang/sub/history.html">연혁</a></li>
-                        <li class="s_nomal"><a href="/web/project/hangang/sub/patent.html">특허 및 인증</a></li>
-                        <li class="s_nomal"><a href="/web/project/hangang/sub/location.html">오시는길</a></li>
+                        <li class="s_nomal"><a href="../sub/about.html">인사말</a></li>
+                        <li class="s_nomal active"><a href="../sub/history.html">연혁</a></li>
+                        <li class="s_nomal"><a href="../sub/patent.html">특허 및 인증</a></li>
+                        <li class="s_nomal"><a href="../sub/location.html">오시는길</a></li>
                     </ul>
                 </div>
                 <div class="history_area">
@@ -187,8 +191,7 @@
                             </li>
                             <li>9월 한국동서발전 정비적격업체 인증 
                             </li>
-                            <li>10월 한국남부발전 정비적격업체 인증</li>
-                            
+                            <li>10월 한국남부발전 정비적격업체 인증</li>                            
                         </ol>
                     </div>
 
@@ -234,7 +237,6 @@
                             </li>
                         </ol>
                     </div>
-
 
                     <div class="div">
                         <h2 class="sib_his">2016</h2>
@@ -322,11 +324,11 @@
                 </div>
             </article>
         </section>
-        </main>
+    </main>
     <div class="footer">
         <div class="inner">
             <div class="loa">
-                <h1 id="f_logo"><a href="/web/project/hangang/"><img src="/web/project/hangang/img/logo.png" alt="footer_logo"></a></h1>
+                <h1 id="f_logo"><a href="../index.html"><img src="../img/logo.png" alt="footer_logo"></a></h1>
                 <address>
                     <p><a href="tel:031-765-3338">TEL. 031-765-3338</a></p>
                     <p><a href="mailto:hangangene@naver.com"></a>E.MAIL. hangangene@naver.com</p>
@@ -336,52 +338,52 @@
             <div class="roa">
                 <ul>
                     <li>
-                        <a href="/web/project/hangang/sub/about.html" class="fo_nav"
+                        <a href="../sub/about.html" class="fo_nav"
                         target="_self">회사소개 </a>
                         <ol class="sub">
-                            <li><a href="/web/project/hangang/sub/about.html"
+                            <li><a href="../sub/about.html"
                                 target="_self">인사말</a></li>
-                            <li><a href="/web/project/hangang/sub/history.html"
+                            <li><a href="../sub/history.html"
                                 target="_self">연혁</a></li>
-                            <li><a href="/web/project/hangang/sub/patent.html"
+                            <li><a href="../sub/patent.html"
                                 target="_self">특허 및 인증</a></li>
-                            <li><a href="/web/project/hangang/sub/location.html"
+                            <li><a href="../sub/location.html"
                                 target="_self">오시는 길</a></li>
                             </ol>
                         </li>
                         <li>
-                            <a href="/web/project/hangang/sub/business01.html" class="fo_nav"
+                            <a href="../sub/business01.html" class="fo_nav"
                         target="_self">사업분야 </a>
                         <ol class="sub">
-                            <li><a href="/web/project/hangang/sub/business01.html"
+                            <li><a href="../sub/business01.html"
                                 target="_self">주택지원사업</a></li>
-                            <li><a href="/web/project/hangang/sub/business02.html"
+                            <li><a href="../sub/business02.html"
                                 target="_self">건물지원사업</a></li>
-                            <li><a href="/web/project/hangang/sub/business03.html"
+                            <li><a href="../sub/business03.html"
                                 target="_self">경기도 에너지자립마을 사업</a></li>
-                            <li><a href="/web/project/hangang/sub/business04.html"
+                            <li><a href="../sub/business04.html"
                                 target="_self">RPS사업</a></li>
                             </ol>
                         </li>
                         <li>
-                            <a href="" class="fo_nav"
+                            <a href="../sub/gallery.html" class="fo_nav"
                         target="_self">설치사례 </a>
                         <ol class="sub">
-                            <li><a href=""
+                            <li><a href="../sub/gallery.html"
                                 target="_self">갤러리</a></li>
                             </ol>
                         </li>
                         <li>
-                            <a href="/web/project/hangang/sub/contact.html" class="fo_nav"
+                            <a href="../sub/contact.html" class="fo_nav"
                         target="_self">온라인문의 </a>
                         </li>
                         <li>
-                            <a href="" class="fo_nav"
+                            <a href="../sub/notice.html" class="fo_nav"
                         target="_self">고객센터 </a>
                         <ol class="sub">
-                            <li><a href=""
+                            <li><a href="../sub/notice.html"
                                 target="_self">공지사항</a></li>
-                            <li><a href=""
+                            <li><a href="../sub/news.html"
                                 target="_self">보도자료</a></li>
                             </ol>
                         </li>
