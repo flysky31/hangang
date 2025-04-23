@@ -515,9 +515,9 @@
   #header.wheel.on {
     background: rgba(0, 0, 0, 0.4);
   }
-  #header.wheel.on .headWrap .hamBtn span {
+/*   #header.wheel.on .headWrap .hamBtn span {
     background: #fff;
-  }
+  } */
   #header.wheel.on .headWrap .hamBtn span em {
     background: #fff;
   }
