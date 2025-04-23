@@ -266,8 +266,10 @@
   position: relative;
   z-index: 1000;
 }
+
 #header .headWrap .hamBtn.on span {
   transition: transform 0.3s ease;
+  background-color:#000;
 }
 #header .headWrap .hamBtn.on span:first-child {
   transform: rotateZ(-45deg) translate3d(-6px, 2px, 0);
