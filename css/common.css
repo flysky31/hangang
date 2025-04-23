@@ -583,7 +583,7 @@
   background-color: #e7e7e7;
   }
   #header .m-headWrap .mgnb li .sub-menu  ul li{
-    border-bottom:border-bottom: 1px solid #ddd;
+    border-bottom:border-bottom: 1px solid rgba(0,0,0,.3);
   }
   
   #header .m-headWrap .mgnb li .sub-menu a {
