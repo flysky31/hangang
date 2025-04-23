@@ -3,11 +3,13 @@ $(function(){
         $(this).toggleClass('on');
         $('.m-headWrap').toggleClass('on');
         $('.blackbox').toggleClass('on');
+        $(body).css('overflow','hidden');
     })
     $("#header .m-headWrap .mgnb_bg").click(function(){
         $(".hamBtn").removeClass('on');
         $('.m-headWrap').removeClass('on');
         $('.blackbox').removeClass('on');
+        $(body).css('overflow','inherit');
     })
 
     $('#header #gnb li').mouseenter(function(){
