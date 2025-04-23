@@ -3,6 +3,13 @@
   font-size: 1.25rem;
 }
 
+#hangang_wrap{
+  overflow:inherit;
+}
+
+#hangang_wrap.over{
+  overflow:hidden;
+}
 .inner {
   width: 70%;
   margin: 0 auto;
