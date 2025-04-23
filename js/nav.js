@@ -3,15 +3,13 @@ $(function(){
         $(this).toggleClass('on');
         $('.m-headWrap').toggleClass('on');
         $('.blackbox').toggleClass('on');
-        $(body).css('overflow','hidden');
-        $(body).toggleClass('over');
+        $('#hangang_wrap').toggleClass('over');
     })
     $("#header .m-headWrap .mgnb_bg").click(function(){
         $(".hamBtn").removeClass('on');
         $('.m-headWrap').removeClass('on');
         $('.blackbox').removeClass('on');
-        $(body).css('overflow','inherit');
-        $(body).removeClass('over');
+
     })
 
     $('#header #gnb li').mouseenter(function(){
