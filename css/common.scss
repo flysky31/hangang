@@ -329,6 +329,7 @@
                 // }
                 span{
                     transition: transform 0.3s ease;
+                    background-color: #000;
                     &:first-child{
                         transform: rotateZ(-45deg) translate3d(-6px, 2px, 0);
                     }
