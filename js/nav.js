@@ -91,8 +91,5 @@ $(function(){
         $.fn.fullpage.moveTo(1); 
     });
 
-  AOS.init({
-    once: true, 
-    duration: 1000,
-  });
+
 })
