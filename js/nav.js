@@ -10,7 +10,7 @@ document.body.style.overflow = 'hidden';
         $('.m-headWrap').removeClass('on');
         $('.blackbox').removeClass('on');
 document.body.style.overflow = '';
-
+document.documentElement.style.overflow = '';
     })
 
     $('#header #gnb li').mouseenter(function(){
