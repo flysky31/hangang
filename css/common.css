@@ -579,14 +579,15 @@
   }
   #header .m-headWrap .mgnb li .sub-menu {
     display: none;
-    padding: 25px 0;
   background-color: #e7e7e7;
   }
   #header .m-headWrap .mgnb li .sub-menu ul li{
     border-bottom: 1px solid rgba(0,0,0,.3);
-    padding:0 0 20px 0;
+    padding:15px 10px;
   }
-  
+  #header .m-headWrap .mgnb li .sub-menu ul li:last-child{
+    border:0;
+  }
   #header .m-headWrap .mgnb li .sub-menu a {
     font-size: 1.2rem;
   }
