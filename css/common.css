@@ -567,6 +567,7 @@
     height: 100vh;
     box-sizing: border-box;
     background-color: #fff;
+    overflow-y: auto;
   }
   #header .m-headWrap .mgnb li {
     position: relative;
