@@ -4,7 +4,7 @@ $(function(){
         $('.m-headWrap').toggleClass('on');
         $('.blackbox').toggleClass('on');
         document.body.style.overflow = 'hidden';
-          if ($('.hamBtn').classList.contains("on")) {
+          if ($('.hamBtn').hasClass("on")) {
             document.body.style.overflow = "hidden";
           } else {
             document.body.style.overflow = "inherit";
