@@ -3,15 +3,13 @@ $(function(){
         $(this).toggleClass('on');
         $('.m-headWrap').toggleClass('on');
         $('.blackbox').toggleClass('on');
-  fullpage_api.setAllowScrolling(false);
-  fullpage_api.setKeyboardScrolling(false);
+document.body.style.overflow = 'hidden';
     })
     $("#header .m-headWrap .mgnb_bg").click(function(){
         $(".hamBtn").removeClass('on');
         $('.m-headWrap').removeClass('on');
         $('.blackbox').removeClass('on');
-          fullpage_api.setAllowScrolling(true);
-  fullpage_api.setKeyboardScrolling(true);
+document.body.style.overflow = '';
 
     })
 
