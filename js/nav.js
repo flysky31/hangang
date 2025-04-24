@@ -4,6 +4,7 @@ $(function(){
         $('.m-headWrap').toggleClass('on');
         $('.blackbox').toggleClass('on');
 document.body.style.overflow = 'hidden';
+document.documentElement.style.overflow = 'hidden';
     })
     $("#header .m-headWrap .mgnb_bg").click(function(){
         $(".hamBtn").removeClass('on');
