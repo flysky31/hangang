@@ -92,7 +92,7 @@ $(function(){
     });
 
   AOS.init({
-    once: true, // 한 번만 작동하고 끝낼지
+    once: true, 
     duration: 1000,
   });
 })
