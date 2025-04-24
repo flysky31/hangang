@@ -3,14 +3,18 @@ $(function(){
         $(this).toggleClass('on');
         $('.m-headWrap').toggleClass('on');
         $('.blackbox').toggleClass('on');
-document.body.style.overflow = 'hidden';
-
+        document.body.style.overflow = 'hidden';
+          if ($('.hamBtn').classList.contains("on")) {
+            document.body.style.overflow = "hidden";
+          } else {
+            document.body.style.overflow = "inherit";
+          }
     })
     $("#header .m-headWrap .mgnb_bg").click(function(){
         $(".hamBtn").removeClass('on');
         $('.m-headWrap').removeClass('on');
         $('.blackbox').removeClass('on');
-document.body.style.overflow = 'inherit';
+        document.body.style.overflow = 'inherit';
 
     })
 
