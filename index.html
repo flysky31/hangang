@@ -397,6 +397,7 @@
         "CELLDOMCITY",
         "NEWS & EVENT",
       ],
+
       afterLoad: function (origin, destination, direction, trigger) {
         invertSection.includes(destination)
           ? $("header").addClass("on")
@@ -409,6 +410,7 @@
           .eq(destination - 1)
           .find(".scroller")
           .addClass("on");
+           AOS.refresh(); 
       },
     });    
   });
