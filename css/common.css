@@ -279,7 +279,7 @@
   
 }
 #header .headWrap .hamBtn.on span.ham{
-  background:#000;
+  background:#000!important;
 }
 
 #header .headWrap .hamBtn.on span:first-child {
