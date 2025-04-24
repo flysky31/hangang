@@ -4,14 +4,14 @@ $(function(){
         $('.m-headWrap').toggleClass('on');
         $('.blackbox').toggleClass('on');
 document.body.style.overflow = 'hidden';
-document.documentElement.style.overflow = 'hidden';
+
     })
     $("#header .m-headWrap .mgnb_bg").click(function(){
         $(".hamBtn").removeClass('on');
         $('.m-headWrap').removeClass('on');
         $('.blackbox').removeClass('on');
-document.body.style.overflow = '';
-document.documentElement.style.overflow = '';
+document.body.style.overflow = 'inherit';
+
     })
 
     $('#header #gnb li').mouseenter(function(){
