@@ -589,7 +589,7 @@
   background-color: #e7e7e7;
   }
   #header .m-headWrap .mgnb li .sub-menu ul li{
-    border-bottom: 1px solid rgba(0,0,0,.3);
+    border-bottom: 1px solid rgba(0,0,0,.2);
     padding:15px 10px;
   }
   #header .m-headWrap .mgnb li .sub-menu ul li:last-child{
