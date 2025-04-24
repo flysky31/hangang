@@ -573,6 +573,9 @@
     position: relative;
 
   }
+  #header .m-headWrap .mgnb li:first-child h2{
+    border-top: 1px solid #ddd;
+  }
   #header .m-headWrap .mgnb li h2 {
     font-weight: 500 !important;
     padding: 0 0 15px 0;
