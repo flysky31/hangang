@@ -689,4 +689,153 @@
   .footer .inner .roa ul li:nth-child(3), .footer .inner .roa ul li:nth-child(4) {
     margin: 0;
   }
-}/*# sourceMappingURL=common.css.map */
+}
+
+
+
+.scroller{
+    opacity: 0;
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+   
+    &.scroller-2{
+      font-weight: 600;
+    }
+    &.on{
+
+      animation-name: scroller;
+    }
+    animation-duration: 1.2s;
+    animation-delay: .3s;
+    animation-fill-mode: forwards;
+    &-2{
+      animation-delay: .6s;
+    }
+    &-3{
+      animation-delay: .9s;
+    }
+    &-4{
+        animation-delay: 1.2s;
+      }
+    &-5{
+    animation-delay: 1.9s;
+    }
+    &-6{
+        animation-delay: 2.2s;
+    }
+  }
+  @keyframes scroller {
+    to{
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+    }
+  }
+  
+
+
+
+  .scroller.left{
+    opacity: 0;
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transition:  all 1.5s;
+    -webkit-transition:  all 1.5s;
+  
+    &.scroller-2{
+        transition:  all 2.5s;
+        -webkit-transition:  all 2.5s;
+    }
+    &.scroller-3{
+        transition:  all 3.5s;
+        -webkit-transition:  all 3.5s;
+      }
+      &.scroller-4{
+        transition:  all 4.5s;
+        -webkit-transition:  all 4.5s;
+      }
+
+    &.on{  
+        animation-name: scroller3;
+        opacity: 1;
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+    }
+  }
+
+  @keyframes scroller3 {
+    to{      
+      opacity: 1;
+    }
+  }
+  
+
+
+  .scroller.right{
+    opacity: 0;
+    transform: translateX(200%);
+    -webkit-transform: translateX(200%);
+    transition:  all 1.5s;
+    -webkit-transition:  all 1.5s;
+  
+    &.scroller-2{
+        transition:  all 2.5s;
+        -webkit-transition:  all 2.5s;
+    }
+    &.scroller-3{
+        transition:  all 3.5s;
+        -webkit-transition:  all 3.5s;
+      }
+      &.scroller-4{
+        transition:  all 4.5s;
+        -webkit-transition:  all 4.5s;
+      }
+
+    &.on{  
+        animation-name: scroller4;
+        opacity: 1;
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+    }
+  }
+
+  @keyframes scroller4 {
+    to{      
+      opacity: 1;
+    }
+  }
+
+
+  .scroller2{
+    opacity: 0;      
+    transition:  all .7s;
+    &.on{
+        animation-name: scroller2;
+    }
+    animation-duration: 1.2s;
+    animation-delay: .3s;
+    animation-fill-mode: forwards;
+    &.scroller-2{
+      animation-delay: 1s;
+    }
+    &.scroller-3{
+      animation-delay: 1.1s;
+    }
+    &.scroller-4{
+        animation-delay: 1.2s;
+      }
+    &.scroller-5{
+    animation-delay: 1.3s;
+    }
+     &.scroller-6{
+    animation-delay: 1.4s;
+    }
+    &.scroller-7{
+        animation-delay: 1.7s;
+     }
+  }
+  @keyframes scroller2 {
+    to{      
+      opacity: 1;
+    }
+  }
