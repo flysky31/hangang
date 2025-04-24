@@ -3,7 +3,7 @@ $(function(){
         $(this).toggleClass('on');
         $('.m-headWrap').toggleClass('on');
         $('.blackbox').toggleClass('on');
-        $('#hangang_wrap').toggleClass('over');
+        $(body).toggleClass('over');
     })
     $("#header .m-headWrap .mgnb_bg").click(function(){
         $(".hamBtn").removeClass('on');
