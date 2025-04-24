@@ -86,8 +86,13 @@ $(function(){
         }
     });
 
-    // Scroll to the top of the page when the "top" button is clicked
+    
     $('#topBtn').click(function() {
-        $.fn.fullpage.moveTo(1); // Scroll to the first section (top of the page)
+        $.fn.fullpage.moveTo(1); 
     });
+
+  AOS.init({
+    once: true, // 한 번만 작동하고 끝낼지
+    duration: 1000,
+  });
 })
