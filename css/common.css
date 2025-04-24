@@ -577,6 +577,9 @@
     padding: 0 0 15px 0;
     border-bottom: 1px solid #ddd;
   }
+  #header .m-headWrap .mgnb li h2 > a{
+    padding: 15px 0 0;
+  }
   #header .m-headWrap .mgnb li.on a i {
     top: 13px;
     transform: rotate(-45deg);
