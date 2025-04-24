@@ -605,8 +605,8 @@
     right: 5px;
     width: 10px;
     height: 10px;
-    border-top: 2px solid #fff;
-    border-right: 2px solid #fff;
+    border-top: 2px solid #d8d8d8;
+    border-right: 2px solid #d8d8d8;
     transform: rotate(133deg);
     transition: all 0.5s ease-in-out;
   }
