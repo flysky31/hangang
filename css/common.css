@@ -3,13 +3,7 @@
   font-size: 1.25rem;
 }
 
-#hangang_wrap{
-  overflow:inherit;
-}
 
-#hangang_wrap.over{
-  overflow:hidden;
-}
 .inner {
   width: 70%;
   margin: 0 auto;
@@ -466,16 +460,7 @@
   align-items: center;
   justify-content: center;
 }
-#topBtn.go_top {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 99;
-  top: auto;
-  transform: translateY(100px);
-  opacity: 0;
-  transition: transform 300ms ease;
-}
+
 #topBtn.go_top.on {
   transform: translateY(0px);
   opacity: 1;
