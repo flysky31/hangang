@@ -586,6 +586,7 @@
   }
   #header .m-headWrap .mgnb li.on a i {
     top: 28px;
+    right: 45px;
     transform: rotate(-45deg);
   }
   #header .m-headWrap .mgnb li .sub-menu {
